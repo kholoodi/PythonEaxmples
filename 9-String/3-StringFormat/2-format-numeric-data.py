@@ -1,0 +1,13 @@
+#Python string-format (numeric data)
+x = 1250
+print('the number is :{:d} '.format(x)) 
+print('the number is :{:b} '.format(x))  
+print('the number is :{:o} '.format(x))  
+print('the number is :{:X} '.format(x))  
+print('the number is :{:x} '.format(x)) 
+print('the number is :{:.3f} '.format(x)) 
+print('the number is :{:e} '.format(x)) 
+print("===================================")
+y = float("nan")
+print('the number is :{:f} '.format(y)) 
+print('the number is :{:F} '.format(y))
