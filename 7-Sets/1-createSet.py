@@ -15,3 +15,9 @@ print(type(y))
 print(type(z))
 print(type(e))
 print(type(f))
+
+myset = {1, -2, 2, 0, (1,2,3), frozenset({1,2,3}),'Hello', True }
+x = myset.copy()
+print(x)
+y = len(x)
+print(y)

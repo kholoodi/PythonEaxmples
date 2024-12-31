@@ -1,5 +1,5 @@
 myset = {1, -2, 2, 0, (1,2,3), frozenset({1,2,3}),'Hello', True }
-#remove() and discard() functions used to remove particular element via element's value.
+#remove() and discard() functions used to remove a particular element via element's value.
 myset.remove(2)
 print(myset)
 myset.discard('Hello')

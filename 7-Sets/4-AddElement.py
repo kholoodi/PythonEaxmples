@@ -1,5 +1,5 @@
 
-#add() function uses to add  one item to the set 
+#add() function uses to add one item to the set 
 S = { 1, 2, 3}
 S.add(4)
 print(S)
